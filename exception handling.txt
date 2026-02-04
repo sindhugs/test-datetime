@@ -1,0 +1,15 @@
+def products():
+
+    try:
+        product_id = int(input("Please Enter the Product ID:"))
+        quantity = int(input("Please Enter the Quantity:"))
+        price = float(input("Please Enter the Price per unit:"))
+
+        total_amount = quantity * price
+        print(f"\nTotal Order Amount for Product ID {product_id}: {total_amount: .2f}")
+
+    except ValueError:
+        print(f"\nMessage: Quantity and Price must be a numeric value.")
+
+products()
+products()
