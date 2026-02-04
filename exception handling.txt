@@ -12,3 +12,4 @@ def products():
         print(f"\nMessage: Quantity and Price must be a numeric value.")
 
 products()
+products()
